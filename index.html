@@ -11,7 +11,7 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <div class="spinner-border text-success" role="status">
+                <div class="spinner-grow text-info" role="status">
                     <span class="visually-hidden">Loading...</span>
                   </div>
               <!-- <a class="navbar-brand" href="/">whyfate</a> -->
@@ -21,27 +21,45 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/">whyfate</a>
+                    <a class="nav-link active" aria-current="page" href="/">WhyFate</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      快速开始
+                      编码必备
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" target="_blank" href="https://www.bing.com">必应</a></li>
-                      <li><a class="dropdown-item" target="_blank" href="https://www.baidu.com">百度</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" target="_blank" href="https://github.com">GitHub</a></li>
+                      <li><a class="dropdown-item" target="_blank" href="https://www.google.com">Google</a></li>
+                      <li><a class="dropdown-item" target="_blank" href="https://chat.openai.com/chat">Chat GPT</a></li>
+                       <li><a class="dropdown-item" target="_blank" href="https://github.com">GitHub</a></li>
+                       <li><hr class="dropdown-divider"></li>
+                       <li><a class="dropdown-item" target="_blank" href="https://fanyi.baidu.com/#en/zh/">百度翻译</a></li>
                     </ul>
                   </li>
 
-                  <li class="nav-item">
-                    <a class="nav-link disabled">博客</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      日常闲逛
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" target="_blank" href="https://github.com">GitHub</a></li>
+                       <li><hr class="dropdown-divider"></li>
+                       <li><a class="dropdown-item" target="_blank" href="https://www.cnblogs.com/">博客园</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      FHIR相关
+                    </a>
+                    <ul class="dropdown-menu">
+                       <li><a class="dropdown-item" target="_blank" href="http://hl7.org/fhir/">Fhir</a></li>
+                       <li><a class="dropdown-item" target="_blank" href="http://hl7.org/fhirpath/">Fhir Path</a></li>
+                       <li><a class="dropdown-item" target="_blank" href="https://cql.hl7.org/">Fhir CQL</a></li>
+                       <li><a class="dropdown-item" target="_blank" href="https://github.com/FirelyTeam">Firely Github</a></li>
+                    </ul>
                   </li>
                   
-                  <li class="nav-item">
-                    <a class="nav-link disabled">工具</a>
-                  </li>
                 </ul>
                 <form class="d-flex" role="search">
                   <input class="form-control me-2" type="search" placeholder="只是为了好看放这的" aria-label="Search">
@@ -55,17 +73,8 @@
         <main role="main" class="pb-3">
             <p></p>
 
-            <div class="jumbotron">
-                <h1 class="display-4">GitHub Pages!</h1>
-                <p class="lead">本站由Github Pages提供.</p>
-                <hr class="my-4">
-                <p>GitHub Pages 是一项静态站点托管服务，它直接从 GitHub 上的仓库获取 HTML、CSS 和 JavaScript 文件，（可选）通过构建过程运行文件，然后发布网站。</p>
-                <a class="btn btn-primary btn-lg" href="https://docs.github.com/zh/pages" role="button">快速入门</a>
-              </div>
-              <p></p>
-
             <div class="alert alert-success" role="alert">
-                这是一个站长还不知道放什么内容的网站，就暂且放些杂七杂八的东西吧。
+              这里面WhyFate的互联网记忆.
               </div>
             <div></div>
             
@@ -73,8 +82,32 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">技术博客</h5>
-                      <p class="card-text">记录一下写的一些博客.</p>
+                      <h5 class="card-title">Blogs</h5>
+                      <p class="card-text">记录一下当时写的一些技术博客.</p>
+                      <a href="blogs/list" target="_blank" class="btn btn-primary">Go</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Links</h5>
+                      <p class="card-text">记录一些对自己有帮助的网站.</p>
+                      <a href="#" class="btn btn-primary">Go</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <p></p>
+              
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Null</h5>
+                      <p class="card-text">暂时不知道记录什么.</p>
                       <a href="#" class="btn btn-primary">Go</a>
                     </div>
                   </div>
@@ -82,13 +115,14 @@
                 <div class="col-sm-6">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title">网站标签</h5>
-                      <p class="card-text">记录保存的一些好用的网站.</p>
+                      <h5 class="card-title">Undefined</h5>
+                      <p class="card-text">为了让首页不那么空旷.</p>
                       <a href="#" class="btn btn-primary">Go</a>
                     </div>
                   </div>
                 </div>
               </div>
+
         </main>
     </div>
 
