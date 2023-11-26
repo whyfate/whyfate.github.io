@@ -1,2 +1,2 @@
-# whyfate.github.io
-一些杂七杂八的东西
+# whyfate的互联网记忆
+记录一些没什么用的东西
